@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A625A428251E7D0004642E /* Pokemon_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625A328251E7D0004642E /* Pokemon_QuizApp.swift */; };
+		00A625A828251E7F0004642E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A625A728251E7F0004642E /* Assets.xcassets */; };
+		00A625AB28251E7F0004642E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A625AA28251E7F0004642E /* Preview Assets.xcassets */; };
+		00A625C228251FBA0004642E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C028251FBA0004642E /* Game.swift */; };
+		00A625C328251FBA0004642E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C128251FBA0004642E /* Question.swift */; };
+		00A625CC28251FCC0004642E /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C528251FCC0004642E /* QuestionView.swift */; };
+		00A625CD28251FCC0004642E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C628251FCC0004642E /* GameView.swift */; };
+		00A625CE28251FCC0004642E /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C728251FCC0004642E /* GameColor.swift */; };
+		00A625CF28251FCC0004642E /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C828251FCC0004642E /* ChoiceTextView.swift */; };
+		00A625D028251FCC0004642E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625C928251FCC0004642E /* WelcomeView.swift */; };
+		00A625D128251FCC0004642E /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625CA28251FCC0004642E /* BottomTextView.swift */; };
+		00A625D228251FCC0004642E /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625CB28251FCC0004642E /* ScoreView.swift */; };
+		00A625D628251FDA0004642E /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625D428251FDA0004642E /* ScoreViewModel.swift */; };
+		00A625D728251FDA0004642E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625D528251FDA0004642E /* GameViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A625A028251E7D0004642E /* Pokemon_Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon_Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A625A328251E7D0004642E /* Pokemon_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_QuizApp.swift; sourceTree = "<group>"; };
+		00A625A728251E7F0004642E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A625AA28251E7F0004642E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00A625C028251FBA0004642E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		00A625C128251FBA0004642E /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		00A625C528251FCC0004642E /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		00A625C628251FCC0004642E /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		00A625C728251FCC0004642E /* GameColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		00A625C828251FCC0004642E /* ChoiceTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		00A625C928251FCC0004642E /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		00A625CA28251FCC0004642E /* BottomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		00A625CB28251FCC0004642E /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		00A625D428251FDA0004642E /* ScoreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		00A625D528251FDA0004642E /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A6259D28251E7D0004642E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A6259728251E7D0004642E = {
+			isa = PBXGroup;
+			children = (
+				00A625A228251E7D0004642E /* Pokemon_Quiz */,
+				00A625A128251E7D0004642E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A625A128251E7D0004642E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A625A028251E7D0004642E /* Pokemon_Quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A625A228251E7D0004642E /* Pokemon_Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				00A625A328251E7D0004642E /* Pokemon_QuizApp.swift */,
+				00A625BF28251FBA0004642E /* Models */,
+				00A625C428251FCC0004642E /* Views */,
+				00A625D328251FDA0004642E /* ViewModels */,
+				00A625A728251E7F0004642E /* Assets.xcassets */,
+				00A625A928251E7F0004642E /* Preview Content */,
+			);
+			path = Pokemon_Quiz;
+			sourceTree = "<group>";
+		};
+		00A625A928251E7F0004642E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00A625AA28251E7F0004642E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00A625BF28251FBA0004642E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00A625C028251FBA0004642E /* Game.swift */,
+				00A625C128251FBA0004642E /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00A625C428251FCC0004642E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00A625C528251FCC0004642E /* QuestionView.swift */,
+				00A625C628251FCC0004642E /* GameView.swift */,
+				00A625C728251FCC0004642E /* GameColor.swift */,
+				00A625C828251FCC0004642E /* ChoiceTextView.swift */,
+				00A625C928251FCC0004642E /* WelcomeView.swift */,
+				00A625CA28251FCC0004642E /* BottomTextView.swift */,
+				00A625CB28251FCC0004642E /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00A625D328251FDA0004642E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				00A625D428251FDA0004642E /* ScoreViewModel.swift */,
+				00A625D528251FDA0004642E /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A6259F28251E7D0004642E /* Pokemon_Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A625AE28251E7F0004642E /* Build configuration list for PBXNativeTarget "Pokemon_Quiz" */;
+			buildPhases = (
+				00A6259C28251E7D0004642E /* Sources */,
+				00A6259D28251E7D0004642E /* Frameworks */,
+				00A6259E28251E7D0004642E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pokemon_Quiz;
+			productName = Pokemon_Quiz;
+			productReference = 00A625A028251E7D0004642E /* Pokemon_Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A6259828251E7D0004642E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					00A6259F28251E7D0004642E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 00A6259B28251E7D0004642E /* Build configuration list for PBXProject "Pokemon_Quiz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A6259728251E7D0004642E;
+			productRefGroup = 00A625A128251E7D0004642E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A6259F28251E7D0004642E /* Pokemon_Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A6259E28251E7D0004642E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A625AB28251E7F0004642E /* Preview Assets.xcassets in Resources */,
+				00A625A828251E7F0004642E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A6259C28251E7D0004642E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A625D728251FDA0004642E /* GameViewModel.swift in Sources */,
+				00A625D628251FDA0004642E /* ScoreViewModel.swift in Sources */,
+				00A625CC28251FCC0004642E /* QuestionView.swift in Sources */,
+				00A625CE28251FCC0004642E /* GameColor.swift in Sources */,
+				00A625C328251FBA0004642E /* Question.swift in Sources */,
+				00A625D128251FCC0004642E /* BottomTextView.swift in Sources */,
+				00A625D028251FCC0004642E /* WelcomeView.swift in Sources */,
+				00A625A428251E7D0004642E /* Pokemon_QuizApp.swift in Sources */,
+				00A625CF28251FCC0004642E /* ChoiceTextView.swift in Sources */,
+				00A625C228251FBA0004642E /* Game.swift in Sources */,
+				00A625CD28251FCC0004642E /* GameView.swift in Sources */,
+				00A625D228251FCC0004642E /* ScoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00A625AC28251E7F0004642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A625AD28251E7F0004642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A625AF28251E7F0004642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pokemon_Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = KVCLVWK89H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sarahlawat.Pokemon-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A625B028251E7F0004642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pokemon_Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = KVCLVWK89H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sarahlawat.Pokemon-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A6259B28251E7D0004642E /* Build configuration list for PBXProject "Pokemon_Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A625AC28251E7F0004642E /* Debug */,
+				00A625AD28251E7F0004642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A625AE28251E7F0004642E /* Build configuration list for PBXNativeTarget "Pokemon_Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A625AF28251E7F0004642E /* Debug */,
+				00A625B028251E7F0004642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A6259828251E7D0004642E /* Project object */;
+}
