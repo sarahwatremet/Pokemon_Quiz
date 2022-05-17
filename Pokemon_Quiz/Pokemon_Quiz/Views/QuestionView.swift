@@ -18,14 +18,16 @@ struct QuestionView: View {
         Text(question.questionText)
           .font(.largeTitle)
           .bold()
-          .multilineTextAlignment(.leading)
+          .multilineTextAlignment(.center)
+          .padding()
         Spacer()
-        HStack {
+        VStack {
           ForEach(0..<question.possibleAnswers.count) { answerIndex in
             Button(action: {
                 print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
                 viewModel.makeGuess(atIndex: answerIndex)
-            }) {
+            })
+              {
               ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                     .background(viewModel.color(forOptionIndex: answerIndex))
             }
@@ -44,5 +46,6 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
       QuestionView(question: Game().currentQuestion)
+            .environmentObject(GameViewModel())
     }
 }
