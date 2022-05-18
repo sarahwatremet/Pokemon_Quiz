@@ -21,10 +21,11 @@
 		00A625D228251FCC0004642E /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625CB28251FCC0004642E /* ScoreView.swift */; };
 		00A625D628251FDA0004642E /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625D428251FDA0004642E /* ScoreViewModel.swift */; };
 		00A625D728251FDA0004642E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A625D528251FDA0004642E /* GameViewModel.swift */; };
+		00A9E7F52834ECFE004093E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A9E7F42834ECFE004093E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00A625A028251E7D0004642E /* Pokemon_Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon_Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A625A028251E7D0004642E /* Pokemon Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A625A328251E7D0004642E /* Pokemon_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_QuizApp.swift; sourceTree = "<group>"; };
 		00A625A728251E7F0004642E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A625AA28251E7F0004642E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,6 +40,7 @@
 		00A625CB28251FCC0004642E /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		00A625D428251FDA0004642E /* ScoreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		00A625D528251FDA0004642E /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		00A9E7F42834ECFE004093E9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 		00A625A128251E7D0004642E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00A625A028251E7D0004642E /* Pokemon_Quiz.app */,
+				00A625A028251E7D0004642E /* Pokemon Quiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +110,7 @@
 				00A625C928251FCC0004642E /* WelcomeView.swift */,
 				00A625CA28251FCC0004642E /* BottomTextView.swift */,
 				00A625CB28251FCC0004642E /* ScoreView.swift */,
+				00A9E7F42834ECFE004093E9 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,7 +141,7 @@
 			);
 			name = Pokemon_Quiz;
 			productName = Pokemon_Quiz;
-			productReference = 00A625A028251E7D0004642E /* Pokemon_Quiz.app */;
+			productReference = 00A625A028251E7D0004642E /* Pokemon Quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A9E7F52834ECFE004093E9 /* LaunchScreen.storyboard in Resources */,
 				00A625AB28251E7F0004642E /* Preview Assets.xcassets in Resources */,
 				00A625A828251E7F0004642E /* Assets.xcassets in Resources */,
 			);
@@ -328,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokemon_Quiz/Preview Content\"";
@@ -336,7 +341,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -345,7 +351,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sarahlawat.Pokemon-Quiz";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pokemon Quiz";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -357,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokemon_Quiz/Preview Content\"";
@@ -365,7 +372,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -374,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sarahlawat.Pokemon-Quiz";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pokemon Quiz";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
